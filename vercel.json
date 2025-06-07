@@ -1,8 +1,8 @@
 {
   "name": "ip-address-tracker",
   "version": 2,
-  "installCommand": "npm install --legacy-peer-deps",
-  "buildCommand": "GENERATE_SOURCEMAP=false npm run build",
+  "installCommand": "npm install",
+  "buildCommand": "npm run build",
   "outputDirectory": "build",
   "framework": "create-react-app",
   "rewrites": [
