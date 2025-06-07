@@ -1,38 +1,55 @@
-# 🌍 IP Address Tracker
+# 🌐 IP Address Tracker
 
-Rastreador de endereços IP moderno e responsivo construído com React 17 e LeafletJS.
+**Rastreador de endereços IP com localização em tempo real.**
+
+![Imagem Ilustrativa](design/desktop-design.jpg)
+
+🔗 [**Veja o projeto online**](https://ip-address-tracker-master-wine.vercel.app/)  
+📦 [**Repositório GitHub**](https://github.com/seu-usuario/ip-address-tracker)
+
+---
 
 ## ✨ Funcionalidades
 
-- 🔍 Busca de IP/Domínio em tempo real
-- 🗺️ Mapa interativo com LeafletJS
-- 📱 Design responsivo
-- ⚡ Performance otimizada
-- 🎨 Interface moderna
+- 🔍 Busca por endereço IP ou nome de domínio  
+- 🗺️ Localização geográfica exibida em mapa interativo  
+- 🕐 Informações de fuso horário e provedor de internet  
+- 📱 Design responsivo para dispositivos móveis e desktops  
 
-## 🚀 Demo
+---
 
-[Ver Demo ao Vivo](https://ip-address-tracker.vercel.app)
+## 🛠️ Tecnologias Utilizadas
 
-## 🛠️ Tecnologias
+- [React 17](https://reactjs.org/)  
+- [TailwindCSS](https://tailwindcss.com/)  
+- [LeafletJS](https://leafletjs.com/)  
+- [IPify API](https://www.ipify.org/)
 
-- React 17.0.2
-- React Scripts 4.0.3
-- TailwindCSS (CDN)
-- LeafletJS (CDN)
-- IPify API
+---
 
-## 🔧 Instalação
+## 🚀 Como Usar Localmente
 
-1. Clone o repositório
-2. Execute `npm install`
-3. Execute `npm start`
-4. Abra http://localhost:3000
+### 1. Clone o repositório
 
-## 📦 Deploy
+```bash
+git clone https://github.com/seu-usuario/ip-address-tracker.git
+cd ip-address-tracker
+```
 
-Este projeto está configurado para deploy automático no Vercel.
+## Instale as dependências
+```bash
+npm install
+```
 
-## 📄 Licença
+## Configure a chave da API
+Crie um arquivo .env.local na raiz do projeto com o conteúdo:
 
-MIT License
+```bash
+REACT_APP_IPIFY_API_KEY=sua_chave_aqui
+```
+🔑 Você pode obter uma chave gratuita em: ipify.org
+
+## Execute o projeto
+```bash
+npm start
+```
