@@ -5,7 +5,7 @@
 ![Imagem Ilustrativa](design/desktop-design.jpg)
 
 🔗 [**Veja o projeto online**](https://ip-address-tracker-master-wine.vercel.app/)  
-📦 [**Repositório GitHub**](https://github.com/seu-usuario/ip-address-tracker)
+📦 [**Repositório GitHub**](https://github.com/alisonschatz/ip-address-tracker)
 
 ---
 
